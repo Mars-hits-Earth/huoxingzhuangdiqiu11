@@ -1,0 +1,15 @@
+[Rule]
+# 富途证券直连规则 - Loon
+DOMAIN-SUFFIX,futunn.com,DIRECT
+DOMAIN-SUFFIX,futuhk.com,DIRECT
+DOMAIN-SUFFIX,futuholdings.com,DIRECT
+DOMAIN-SUFFIX,futuie.com,DIRECT
+DOMAIN-SUFFIX,moomoo.com,DIRECT
+DOMAIN-SUFFIX,futuapp.com,DIRECT
+DOMAIN-SUFFIX,futuglobal.com,DIRECT
+DOMAIN-SUFFIX,futuniu.com,DIRECT
+IP-CIDR,103.45.142.0/24,DIRECT,no-resolve
+IP-CIDR,103.45.143.0/24,DIRECT,no-resolve
+
+[Script]
+# （可选）可加脚本自动更新规则
