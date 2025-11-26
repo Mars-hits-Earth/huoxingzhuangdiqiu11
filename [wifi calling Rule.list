@@ -1,0 +1,22 @@
+[Rule]
+# Freedom Mobile WiFi Calling 专杀规则（中国必备，优先级最高）
+DOMAIN,epdg.epc.mnc302.mcc302.pub.3gppnetwork.org,Proxy
+DOMAIN,sos.epdg.epc.mnc302.mcc302.pub.3gppnetwork.org,Proxy
+DOMAIN,epdg.epc.mnc320.mcc302.pub.3gppnetwork.org,Proxy
+DOMAIN-SUFFIX,epc.mnc302.mcc302.pub.3gppnetwork.org,Proxy
+DOMAIN-SUFFIX,ims.mnc302.mcc302.pub.3gppnetwork.org,Proxy
+DOMAIN-SUFFIX,3gppnetwork.org,Proxy
+DOMAIN-SUFFIX,freedommobile.ca,Proxy
+DOMAIN-SUFFIX,freedommobile.com,Proxy
+DOMAIN-SUFFIX,vo wifi.ca,Proxy
+IP-CIDR,166.48.0.0/16,Proxy,no-resolve
+IP-CIDR,172.30.0.0/16,Proxy,no-resolve
+IP-CIDR6,2607:fb90::/32,Proxy,no-resolve
+
+# 通用 WiFi Calling 补漏（防止运营商换备用域名）
+DOMAIN-SUFFIX,epdg.epc.pub.3gppnetwork.org,Proxy
+DOMAIN-SUFFIX,epdg.epc.,Proxy
+DOMAIN-KEYWORD,epdg,Proxy
+DOMAIN-KEYWORD,ims.mnc,Proxy
+
+# 其余规则放下面……
